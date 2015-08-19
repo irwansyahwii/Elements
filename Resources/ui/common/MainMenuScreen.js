@@ -78,7 +78,7 @@
       this.buttonGallery.left = this.buttonFloorplan.width + this.buttonFloorplan.left;
       this.buttonGallery.top = this.buttonGallery.height + 1;
       this.buttonGallery.addEventListener("click", this.menuButtonClicked);
-      this.buttonGallery.button_id = 3;
+      this.buttonGallery.button_id = 4;
       return this;
     };
 

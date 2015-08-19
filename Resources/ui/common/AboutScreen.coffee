@@ -30,9 +30,9 @@ class AboutScreen
         @view.addEventListener "scrollend", @onScrollEnd
 
     onScrollEnd: () =>
-        if @view.currentPage isnt @currentViewIndex
-            @currentViewIndex = @view.currentPage
-            @getCurrentView().controller.play()
+        # if @view.currentPage isnt @currentViewIndex
+        #     @currentViewIndex = @view.currentPage
+        #     @getCurrentView().controller.play()
 
 
     relayout: () =>
@@ -42,9 +42,9 @@ class AboutScreen
         @
 
     getCurrentView: () =>
-        for v in @view.views
-            v.controller.reset()
-        return @view.views[@view.currentPage]
+        # for v in @view.views
+        #     v.controller.reset()
+        # return @view.views[@view.currentPage]
 
     play: () =>
         

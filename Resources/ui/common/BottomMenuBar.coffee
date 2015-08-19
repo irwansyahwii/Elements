@@ -27,7 +27,7 @@ class TopMenuBar
             backgroundImage: 'ToolbarMenu-LocationButton.png'
             width: 410/2
             height: 114/2
-            button_id: 4
+            button_id: 2
 
         @view.add @buttonLocation
 
@@ -43,7 +43,7 @@ class TopMenuBar
             backgroundImage: 'ToolbarMenu-GalleryButton.png'
             width: 410/2
             height: 114/2
-            button_id: 2
+            button_id: 4
 
         @view.add @buttonGallery
 

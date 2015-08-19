@@ -108,6 +108,9 @@
     };
 
     ScreenWithTopBarMenu.prototype.click = function(button_id) {
+      if (button_id === 0) {
+        this.showMainMenuScreen();
+      }
       if (button_id === 1) {
         return this.showAboutScreen();
       }

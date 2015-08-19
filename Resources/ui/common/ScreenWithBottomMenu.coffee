@@ -87,8 +87,8 @@ class ScreenWithTopBarMenu
             @logoButtonClicked()
 
     click: (button_id) =>        
-        # if button_id is 0        
-        #     @showAboutScreen()
+        if button_id is 0        
+            @showMainMenuScreen()
 
         if button_id is 1
             @showAboutScreen()

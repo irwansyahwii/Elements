@@ -70,7 +70,7 @@ class MainMenuScreen
         @buttonGallery.left = @buttonFloorplan.width + @buttonFloorplan.left
         @buttonGallery.top = @buttonGallery.height + 1
         @buttonGallery.addEventListener "click", @menuButtonClicked
-        @buttonGallery.button_id = 3
+        @buttonGallery.button_id = 4
 
         @
 

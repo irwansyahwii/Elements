@@ -29,12 +29,7 @@
       this.view.addEventListener("scrollend", this.onScrollEnd);
     }
 
-    AboutScreen.prototype.onScrollEnd = function() {
-      if (this.view.currentPage !== this.currentViewIndex) {
-        this.currentViewIndex = this.view.currentPage;
-        return this.getCurrentView().controller.play();
-      }
-    };
+    AboutScreen.prototype.onScrollEnd = function() {};
 
     AboutScreen.prototype.relayout = function() {};
 
@@ -42,15 +37,7 @@
       return this;
     };
 
-    AboutScreen.prototype.getCurrentView = function() {
-      var j, len, ref, v;
-      ref = this.view.views;
-      for (j = 0, len = ref.length; j < len; j++) {
-        v = ref[j];
-        v.controller.reset();
-      }
-      return this.view.views[this.view.currentPage];
-    };
+    AboutScreen.prototype.getCurrentView = function() {};
 
     AboutScreen.prototype.play = function() {};
 
