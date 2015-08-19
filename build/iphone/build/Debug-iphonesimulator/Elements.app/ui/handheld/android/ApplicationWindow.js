@@ -1,0 +1,1 @@
+/Users/irwansyah/PROJECTS/Titanium/Elements/Resources/ui/handheld/android/ApplicationWindow.js
